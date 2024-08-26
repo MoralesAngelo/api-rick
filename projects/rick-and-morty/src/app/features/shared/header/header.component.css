@@ -1,0 +1,51 @@
+:host {
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-start: 0.5rem;
+
+  a {
+    padding-block-start: 0.5rem;
+  }
+}
+
+ul {
+  flex-direction: row;
+}
+
+li {
+  display: none;
+}
+
+img {
+  margin-inline-start: 1.5rem;
+}
+
+.ham-menu {
+  font-size: 3rem;
+  padding-inline-end: 1.5rem;
+  cursor: pointer;
+}
+
+.close-btn {
+  font-size: 3rem;
+  padding-inline-end: 1.5rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media (width > 1000px) {
+  .ham-menu {
+    display: none;
+  }
+}
+
+@media (width < 1000px) {
+  .desktop {
+    display: none;
+  }
+}

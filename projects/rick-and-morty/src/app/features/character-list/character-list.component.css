@@ -1,0 +1,37 @@
+:host {
+  max-width: 80%;
+}
+
+.character-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.character-card {
+  position: relative;
+  width: 250px;
+  border-radius: 1rem;
+  background-color: var(--dark-green);
+  padding-block-end: 1rem;
+
+  li:not(:first-child) {
+    color: white;
+  }
+}
+
+.close-btn,
+.favorite-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (width > 500px) {
+  .character-list {
+    flex-direction: row;
+  }
+}

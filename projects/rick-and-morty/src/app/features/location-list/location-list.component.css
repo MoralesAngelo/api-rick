@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 4rem;
+}
+
+.location-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-block-start: 3rem;
+  max-width: 80%;
+}

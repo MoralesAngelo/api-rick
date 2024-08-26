@@ -1,0 +1,22 @@
+.episode-card {
+  width: 300px;
+  min-height: 110px;
+  border-radius: 1rem;
+  background-color: var(--dark-green);
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  color: white;
+  gap: 0.7rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.episode-name {
+  font-family: 'Creepster', monospace;
+  font-size: 1.5rem;
+  color: var(--light-green);
+}
